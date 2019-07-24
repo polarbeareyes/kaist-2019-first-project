@@ -9,7 +9,7 @@
         border-bottom:3px rgb(43, 128, 226) solid;
         padding:20px;
         text-align: center;
-        font-size: 30px
+        font-size: 60px
         
        }
         li,ul{
@@ -19,12 +19,16 @@
             display:inline;
             border-left:1px solid #999;
             padding:0 10px;
+            font-size: 30px
         }
         ul li:first-child{
             border-left:none;
         }
         #sos{
-        display: table; margin-left: auto; margin-right: auto;
+        display: table;
+         margin-left: auto;
+          margin-right: auto;
+          width:700px
         }
         #contain{
             display:grid;
@@ -40,5 +44,24 @@
             width:10%
         }
         .sa{
-            font-size: 10px;
-                }
+            font-size: 15px;
+        }
+        #l , li {
+            list-style-type: none;
+            display: inline;
+        }
+        ol li{
+            display:inline;
+            border-left:1px solid #999;
+            padding:0 10px;
+            font-size: 25px
+        }
+        ol li:first-child{
+            border-left:none;
+        }
+        #l{
+            display:inline;
+            padding:0 10px;
+            font-size: 25px
+        }
+                

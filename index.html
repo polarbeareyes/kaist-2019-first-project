@@ -1,96 +1,132 @@
 <!doctype HTML>
 <html>
-    <style>
-    body {background-color:lightblue;}
-    a:link{color:black;}
-    a:visited{color:black;}
-    a:hover{color:blue;}
-    a:active{color:rgb(209, 69, 114)}
-    h1{
+<style>
+    body {
+        background-color: lightblue;
+    }
+
+    a:link {
+        color: black;
+    }
+
+    a:visited {
+        color: black;
+    }
+
+    a:hover {
+        color: blue;
+    }
+
+    a:active {
+        color: rgb(209, 69, 114)
+    }
+
+    h1 {
         font-family: 'Pacifico', cursive;
-        margin-left: auto; margin-right: auto;
-        border-bottom:3px rgb(43, 128, 226) solid;
-        padding:20px;
+        margin-left: auto;
+        margin-right: auto;
+        border-bottom: 3px rgb(43, 128, 226) solid;
+        padding: 20px;
         text-align: center;
+        font-size: 60px
+    }
+
+    li,
+    ul {
+        font-family: 'Righteous', cursive;
+    }
+
+    #s {
+        font-family: 'Indie Flower', cursive;
+        list-style: none;
+        font-size: 25px
+    }
+
+    ul li {
+        display: inline;
+        border-left: 1px solid #999;
+        padding: 0 10px;
         font-size: 30px
-        
-       }
-        li,ul{
-            font-family: 'Righteous', cursive;
-        }
-        #s{
-            font-family: 'Indie Flower', cursive;
-            list-style:none;
-            font-size:25px
-        }
-        ul li{
-            display:inline;
-            border-left:1px solid #999;
-            padding:0 10px;
-        }
-        ul li:first-child{
-            border-left:none;
-        }
-        #sos{
-        display: table; margin-left: auto; margin-right: auto;
-        }
-        .sa{
-            font-size: 10px;
-                }
-        #fakebox{
-            width: 100px;
-        }
-        #container{
-        display:grid;
+    }
+
+    ul li:first-child {
+        border-left: none;
+    }
+
+    #sos {
+        display: table;
+        margin-left: auto;
+        margin-right: auto;
+    }
+
+    .sa {
+        font-size: 15px;
+    }
+
+    #fakebox {
+        width: 100px;
+    }
+
+    #container {
+        display: grid;
         grid-template-columns: 1fr 1fr;
-        }   
-        #contain{
-            display:grid;
-            grid-template-columns: auto 400px auto;
-        }
-        ul{
-            padding:0px
-        }
-        form{
-            text-align: center;
-        }
-        #ga{
-            width:10%
-        }
-    </style>
+    }
+
+    #contain {
+        display: grid;
+        grid-template-columns: auto 400px auto;
+    }
+
+    ul {
+        padding: 0px
+    }
+
+    form {
+        text-align: center;
+    }
+
+    #ga {
+        width: 10%
+    }
+</style>
+
 <head>
-        <link href="https://fonts.googleapis.com/css?family=Pacifico&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Pacifico&display=swap" rel="stylesheet">
     <title>My Movie</title>
     <meta charset="utf-8">
 </head>
+
 <body>
-        <link href="https://fonts.googleapis.com/css?family=Righteous&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Righteous&display=swap" rel="stylesheet">
     <h1><a href="./index.html">My Movie</a></h1>
-<div id="sos">
-<ul>
-    <li><a href="1.html">movie</a></li>
-    <li><a href="2.html">trailer</a></li>
-    <li><a href="3.html">my movie</a></li>
-</ul><br>
-</div>
-<link href="https://fonts.googleapis.com/css?family=Indie+Flower&display=swap" rel="stylesheet">
-    <li id="s">Hello, welcome to <strong>My Movie</strong>
-    <img src="123.png" width="100%">
-    <div id="container">
-        <ul class="sa">log in <input id="fakebox" autocomplete="off" tabindex="-1" type="url" aria-hidden="true"></ul>
-        <ul class="sa">join membership <input id="fakebox" autocomplete="off" tabindex="-1" type="url" aria-hidden="true"></ul><br>
-    </div>    
-    <div id="contain">
-        <div></div>
+    <div id="sos">
         <ul>
-            <form action="https://www.google.com/search?">
-            <label for="q" class="sa">information</label>
-            <input name="q" class="sa" type="test" >
-            <input id="ga" type="submit">
-            </form>
-        </ul>
-        <div></div>
+            <li><a href="1.html">movie</a></li>
+            <li><a href="2.html">trailer</a></li>
+            <li><a href="3.html">my movie</a></li>
+        </ul><br>
     </div>
+    <link href="https://fonts.googleapis.com/css?family=Indie+Flower&display=swap" rel="stylesheet">
+    <li id="s">Hello, welcome to <strong>My Movie</strong>
+        <img src="movieimage.jpg" width="100%">
+        <div id="container">
+            <ul class="sa">log in <input id="fakebox" autocomplete="off" tabindex="-1" type="url" aria-hidden="true">
+            </ul>
+            <ul class="sa">join membership <input id="fakebox" autocomplete="off" tabindex="-1" type="url"
+                    aria-hidden="true"></ul><br>
+        </div>
+        <div id="contain">
+            <div></div>
+            <ul>
+                <form action="https://www.google.com/search?">
+                    <label for="q" class="sa">information</label>
+                    <input name="q" class="sa" type="test">
+                    <input id="ga" type="submit">
+                </form>
+            </ul>
+            <div></div>
+        </div>
 
 </body>
+
 </html>
