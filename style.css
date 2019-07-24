@@ -1,0 +1,44 @@
+    body {background-color:lightblue;}
+    a:link{color:black;}
+    a:visited{color:black;}
+    a:hover{color:blue;}
+    a:active{color:rgb(209, 69, 114)}
+    h1{
+        font-family: 'Pacifico', cursive;
+        margin-left: auto; margin-right: auto;
+        border-bottom:3px rgb(43, 128, 226) solid;
+        padding:20px;
+        text-align: center;
+        font-size: 30px
+        
+       }
+        li,ul{
+            font-family: 'Righteous', cursive;
+        }
+        ul li{
+            display:inline;
+            border-left:1px solid #999;
+            padding:0 10px;
+        }
+        ul li:first-child{
+            border-left:none;
+        }
+        #sos{
+        display: table; margin-left: auto; margin-right: auto;
+        }
+        #contain{
+            display:grid;
+            grid-template-columns: auto 400px auto;
+        }
+        ul{
+            padding:0px
+        }
+        form{
+            text-align: center;
+        }
+        #ga{
+            width:10%
+        }
+        .sa{
+            font-size: 10px;
+                }
